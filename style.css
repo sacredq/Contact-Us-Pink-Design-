@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    font-style: 'Popins', sans-serif; overflow: hidden;
+}
+
+body{
+    background: #fae9fb; width: 100%; height: 100vh;
+    display: flex; justify-content: center; align-items: center;
+}
+
+.container_box{
+    background: #fff; border-radius: 12px; max-width: 1050px;
+    
+
+}
+
+.container{
+    display: flex; flex-direction: row; align-items: flex-start;
+}
+
+.left_side{
+    display: flex; flex-direction: column; justify-content: flex-start;
+}
+
+.image{
+    max-width: 90%;
+}
+
+.right_side{
+    display: flex; flex-direction: column; justify-content: flex-start;
+    padding: 2rem; min-width: 370px;
+}
+
+.btn{
+    color: white; background: #ba24c2; border-radius: 6px;
+    border: none; padding: 6px; font-size: 18px; cursor: pointer;
+}
+
+.fields{
+    margin-top: 1rem;
+    display: flex; flex-direction: column; gap: 20px;
+}
+
+.form_fields{
+    display: flex; flex-direction: column;
+    gap: 16px;
+}
+
+.name_field, .email_field{
+    border-radius: 6px; background: #fae9fb;
+    font-size: 16px; 
+    border: 2px solid transparent; width: 100%;
+    padding-left: 16px; height: 40px;
+}
+
+.textarea_field{
+    background: #fae9fb; border-radius: 6px; border: none;
+    width: 100%; padding: 12px 16px;
+    min-height: 60px; resize: none; 
+} 
+
+.title h2{
+    margin: 0; padding: 0;
+    color: #ba24c2; font-size: 22px; font-weight: 500;
+}
+
+.name_field:focus, .email_field:focus, .textarea_field:focus{
+    background: #fff; border: 2px solid #ba24c2; border-radius: 6px;
+    outline: none;
+} 
